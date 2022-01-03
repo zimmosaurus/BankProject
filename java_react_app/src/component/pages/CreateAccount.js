@@ -1,10 +1,12 @@
-export const CreateAccountPage = () => {
-  //Display form to create Accounts
-  //Display form for table
+import React from "react";
+class CreateAccountPage extends React.Component {
+  render() {
+    return (
+      <>
+        <h6>Welcome to CreateAccountPage</h6>
+      </>
+    );
+  }
+}
 
-  return (
-    <>
-      <h6>Welcome to CreateAccountPage</h6>
-    </>
-  );
-};
+export default CreateAccountPage;
