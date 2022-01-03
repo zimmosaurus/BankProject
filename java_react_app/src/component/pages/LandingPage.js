@@ -4,7 +4,9 @@ import { Constants } from "../../constants/Constants";
 function LandingPage() {
   return (
     <div>
-      <Link to="/new-acc">Create New Account</Link>
+      <h1>Welcome to a Janky Bank!</h1>
+      <br />
+      <Link to={"/" + Constants.NEW_ACCOUNT}>Create New Account</Link> <hr />
       <Link to={"/" + Constants.LOG_IN}>Log in</Link>
     </div>
   );
